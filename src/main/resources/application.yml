@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: default
+
+swagger:
+  path: localhost:8080
+
+logging:
+  level:
+    org:
+      springframework:
+        web:  DEBUG
+    hibernate: DEBUG
